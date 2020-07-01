@@ -1,0 +1,65 @@
+/* All content layout */
+#all-content-wrap {
+    display: flex;
+    /* remove the color later or put it in styles */
+    background: blue;
+    padding: 0.5em;
+    min-width: 300px;
+    flex-direction: column;
+    /* height */
+    min-height: 100%;
+}
+
+#header {
+    min-height: 250px;
+    width: 100%;
+    /* remove the color later or put it in styles */
+    background: green;
+}
+
+/* main content grid view for bigger screens */
+#main-content {
+    min-height: 300px;
+    width: 75%;
+    /* remove the color later or put it in styles */    
+    background: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    /* footer part */
+    overflow: auto;
+    padding-bottom: 60px;
+}
+.main-content_article {
+    /* remove the color later or put it in styles */    
+    background: yellow;
+    z-index: 1;
+    margin: 3px;
+}
+/* footer kept at the bottom */
+#footer {
+    position: relative;
+    margin-top: -60px;
+    height: 60px;
+    clear: both;
+    width: 100%;
+    /* remove later/put it in styles */
+    background: black;
+} 
+/* media for mobile screens to flex the main-content layout in a column and make it more readable */
+@media all and (max-width: 650px) {
+    #main-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .main-content_article {
+        height: 130px;
+    }
+}
+/* media for tablets or smaller monitors to make the main-content layout 100% wide */
+@media all and (max-width: 1300px) {
+    #main-content  {
+        width: 100%;
+    }
+}

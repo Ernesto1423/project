@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="lt">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagrindinis puslapis</title>
+        <link href="styles/container.css" rel="stylesheet">
+        <link href="styles/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <span class="cursor-pointer" " onclick="openNav()">&#9776; Meniu</span>
+        <nav id="my-nav" class="overlay">
+            <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#home">Titulinis</a>
+                <a href="#about">Apie</a>
+                <a href="#form">Forma</a>
+                <a href="#contacts">Kontaktai</a>
+            </div>
+        </nav>        
+   
+        <div id="all-content-wrap">
+
+            <header id="header">
+                
+            </header>
+            
+            <main id="main-content">
+                <article class="main-content_article">
+                    <div class="main-content__article-color1">
+
+                    </div>
+                </article>
+
+                <article class="main-content_article">
+                    <div class="main-content__article-color2">
+
+                    </div>
+                </article>
+
+                <article class="main-content_article">
+                    <div class="main-content__article-color3">
+
+                    </div>
+                </article>
+
+                <article class="main-content_article">
+                    <div class="main-content__article-color4">
+
+                    </div>
+                </article>
+
+                <article class="main-content_article">
+                    <div class="main-content__article-color5">
+
+                    </div>
+                </article>
+
+                <article class="main-content_article">
+                    <div class="main-content__article-color6">
+
+                    </div>
+                </article>
+            </main>
+        </div>
+        
+            <footer id="footer"></footer>
+        
+        <script>
+            function openNav() {
+              document.getElementById("my-nav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("my-nav").style.width = "0%";
+            }
+        </script>
+    </body>
+</html>
