@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="lt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pradinis puslapis</title>
+        <script src="https://kit.fontawesome.com/4186ddf086.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link href="style\style.css" rel="stylesheet">
+        <link href="style\media.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav>
+                <div class="logo">
+                    <h4>
+                        <a href="index.html" class="glow-on-hover"><i class="fas fa-camera-retro fa-2x"></i>Our page</a>
+                    </h4>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html" class="glow-on-hover">Pradinis</a>
+                    </li>
+                    <li>
+                        <a href="#about-us-box" class="glow-on-hover">Apie</a>
+                    </li>
+                    <li class="not-complete">
+                        <a href="javascript:alert('Ši dalis dar vis ruošiama!');">Siūlome</a>
+                    </li>
+                    <li>
+                        <a href="#form" class="glow-on-hover">Bendraukim!</a>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <div class="line1 glow-on-hover"></div>
+                    <div class="line2 glow-on-hover"></div>
+                    <div class="line3 glow-on-hover"></div>
+                </div>
+            </nav>
+            <!-- Navigation -->
+            <!-- Top Container -->
+            <section class="top-container">
+                <header class="showcase">
+                    <h1>Viskas apie tai!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta excepturi dolorum, laudantium eum officia repellendus perferendis expedita quidem hic quibusdam. Nostrum, eius hic expedita laborum maiores itaque, reprehenderit sunt, deserunt blanditiis aut necessitatibus soluta cum nisi eos aperiam eum voluptatem possimus deleniti repellendus labore. A consequuntur et molestiae sint qui?
+                    </p>
+                    <a href="#" class="btn">Skaityti daugiau...</a>
+                </header>
+                <div class="top-box top-box-a">
+                    <h4>Paslauga</h4>
+                    <p class="price">100$</p>
+                    <a href="" class="btn">Pirkti</a>
+                </div>
+                <div class="top-box top-box-b">
+                    <h4>Kita paslauga</h4>
+                    <p class="price">50$</p>
+                    <a href="" class="btn">Pirkti</a>
+                </div>
+            </section>
+            <!-- Arrow -->
+            <div class="arrow">
+                <a href="#box-section-name">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <!-- Slider -->
+            <div class="slider-name">
+                <h2>Mūsų galerija:</h2>
+            </div>
+
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\cat.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\mean-owl.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\whitefox.jpg">
+                </div>
+                    
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\parrot.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\hedgehog.jpg">
+                </div>
+                    
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\fox.jpg">
+                </div>
+                    
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                    <img class="demo cursor" src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\cat.jpg" onclick="currentSlide(1)" alt="Juoda katė">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\mean-owl.jpg" onclick="currentSlide(2)" alt="Piktas apuokas">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\whitefox.jpg" onclick="currentSlide(3)" alt="Balta Arktikinė lapė">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\parrot.jpg" onclick="currentSlide(4)" alt="Spalvinga papūga">
+                    </div>
+                    <div class="column">
+                    <img class="demo cursor" src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\hedgehog.jpg" onclick="currentSlide(5)" alt="Jaunas ežiukas">
+                    </div>    
+                    <div class="column">
+                    <img class="demo cursor" src="C:\Users\Wigwamfan\Desktop\Projektas2\img\animals\fox.jpg" onclick="currentSlide(6)" alt="Orandžinė lapė">
+                    </div>
+                </div>
+            </div>
+         
+
+            <!-- Boxes Section -->
+            <div id="box-section-name">
+                <h2>Mūsų straipsniai:</h2>
+            </div>
+
+            <section id="boxes">
+                <div class="box">
+                    <h3>Topic 1</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione cupiditate ea repellendus alias iste adipisci quam officia porro, officiis qui repudiandae. Dolor magnam repudiandae architecto quo inventore molestias animi! Commodi? </p>
+                    <a href="" class="btn">Skaityti daugiau...</a>
+                </div>
+                <div class="box">
+                    <h3>Topic 2</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione cupiditate ea repellendus alias iste adipisci quam officia porro, officiis qui repudiandae. Dolor magnam repudiandae architecto quo inventore molestias animi! Commodi? </p>
+                    <a href="" class="btn">Skaityti daugiau...</a>
+                </div>
+                <div class="box">
+                    <h3>Topic 3</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione cupiditate ea repellendus alias iste adipisci quam officia porro, officiis qui repudiandae. Dolor magnam repudiandae architecto quo inventore molestias animi! Commodi? </p>
+                    <a href="" class="btn">Skaityti daugiau...</a>
+                </div>
+                <div class="box">
+                    <h3>Topic 4</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione cupiditate ea repellendus alias iste adipisci quam officia porro, officiis qui repudiandae. Dolor magnam repudiandae architecto quo inventore molestias animi! Commodi? </p>
+                    <a href="" class="btn">Skaityti daugiau...</a>
+                </div>
+                <div class="box">
+                    <h3>Topic 5</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione cupiditate ea repellendus alias iste adipisci quam officia porro, officiis qui repudiandae. Dolor magnam repudiandae architecto quo inventore molestias animi! Commodi? </p>
+                    <a href="" class="btn">Skaityti daugiau...</a>
+                </div>
+                <div class="box">
+                    <h3>Topic 6</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione cupiditate ea repellendus alias iste adipisci quam officia porro, officiis qui repudiandae. Dolor magnam repudiandae architecto quo inventore molestias animi! Commodi? </p>
+                    <a href="" class="btn">Skaityti daugiau...</a>
+                </div>
+            </section>
+
+            <!-- About section -->  
+            <section id="about-us-box">
+                <div class="img-box">
+                    <img src="C:\Users\Wigwamfan\Desktop\Projektas2\img\camera\camera-1769414_1920.jpg" alt="Profesionali kamera stovinti ant tripodo">
+                </div>
+                <div class="text-box">
+                    <h2><i class="fas fa-seedling"></i>                    Apie mus                   <i class="fas fa-seedling"></i></h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quibusdam nesciunt sint excepturi totam voluptas corrupti sit, recusandae perferendis ullam officia iste consectetur maxime cum omnis quas provident, ipsam voluptates accusantium perspiciatis! Optio nihil repudiandae officia excepturi dolore magni odit, ab aliquid neque amet blanditiis dignissimos eveniet expedita consequatur dolorum eaque facere modi quod earum doloremque similique. Maxime consequuntur sed culpa, iste exercitationem obcaecati quod reprehenderit facilis libero asperiores nesciunt quaerat sit earum, ea cumque quas nam dolore vero repudiandae suscipit. Incidunt, eveniet? Maxime corporis adipisci, possimus deleniti nobis ab, aperiam earum nulla repellat quae doloremque ipsum harum porro velit!</p>
+                </div>
+            </section>
+
+            <!-- Form section/Contacts -->
+            <div id="contacts-name">
+                <h2><i class="fas fa-envelope"></i>             Bendraukim!            <i class="fas fa-envelope"></i></h2>
+            </div>
+            <section class="contact-us">
+                <div id="form">
+                    <form>
+                        <label for="fname"><span class="text">Jūsų vardas</span></label>
+                        <input type="text" id="fname" name="firstname" placeholder="Vardas..">
+                    
+                        <label for="lname"><span class="text">Jūsų pavardė</span></label>
+                        <input type="text" id="lname" name="lastname" placeholder="Pavardė..">
+
+                        <label for="email"><span class="text">Elektroninis paštas</span></label>
+                        <input type="email" id="email" name="email" placeholder="Pašto adresas..">
+
+                        <label for="subject"><span class="text">Jūsų žinutė</span></label>
+                        <textarea id="subject" name="subject" placeholder="Įrašykite ką nors.."></textarea>
+
+                        <input type="submit" class="button" value="siūsti">    
+                    </form>
+                </div>
+                <div class="contacts"> 
+                    <h3>Kontaktiniai duomenys:</h3>
+
+                    <ul>
+                        <li>Tel. numeris: +3702134xxx</li>
+                        <li>El. paštas: our-page@our-page.com</li>
+                        <li>Adresas: Vilniaus g. 31, Vilnius, Vilniuva.</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim modi ullam neque debitis aliquam ipsa explicabo eius quam odit reiciendis!</p>
+                    <h4>Darbo laikas:</h4>
+                    <div class="work-time-wrap">
+                        <ul>
+                            <li><img src="img/numbers svg/number01.png" alt="skaičius vienas"><alt class="work-time">8.00-10.00</alt></li>
+                            <li><img src="img/numbers svg/number02.png" alt="skaičius du"><alt class="work-time">16.00-19.00</alt></li>
+                            <li><img src="img/numbers svg/number03.png" alt="skaičius trys"><alt class="work-time">8.00-10.00</alt></li>
+                            <li><img src="img/numbers svg/number04.png" alt="skaičius keturi"><alt class="work-time">16.00-19.00</alt></li>
+                            <li><img src="img/numbers svg/number05.png" alt="skaičius penki"><alt class="work-time">8.00-10.00</alt></li>
+                            <li><img src="img/numbers svg/number06.png" alt="skaičius šeši"><alt class="work-time">5.00-5.00</alt></li>
+                            <li><img src="img/numbers svg/number07.png" alt="skaičius septyni"><alt class="work-time">5.00-5.01</alt></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer>
+                <p>Our Page &copy; 2020</p>
+            </footer>
+        </div>
+        <!-- Wrapper Ends -->
+
+        <!-- JavaScript -->
+        <script src="C:\Users\Wigwamfan\Desktop\Projektas2\app.js"></script>
+    </body>
+</html>
